@@ -5,7 +5,7 @@ import (
 	"image/color"
 	// Packages image/gif, image/jpeg and image/png are not used explicitly in the code below,
 	// but are imported for its initialization side-effect, which allows
-	// image.Decode to understand theese formatted images.
+	// image.Decode to understand these formatted images.
 	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"
