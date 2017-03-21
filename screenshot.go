@@ -21,7 +21,7 @@ var MaxColorPercent = 0.4
 // MinColorMapSize is a lower bound for size of color map
 var MinColorMapSize = 1000
 
-//Detect reports whether an Image m is screenshots
+//Detect reports whether an Image m is screenshot
 func Detect(m image.Image) bool {
 	res := false
 	colormap := make(map[color.Color]int)
